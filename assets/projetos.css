@@ -1,0 +1,177 @@
+body{
+    
+    font-weight: 900;
+    cursor: url('cursor.png'),auto;
+    font-family: 'Crete Round', serif;
+    background-color: #151819 !important;
+    color: #B7154A;
+    background-image: url('sserver2.png');
+    background-repeat:round; 
+
+
+
+  }
+  
+  .background{
+    background-image: url('sserver2.png');
+    opacity: 0.9;
+    width: 100%;
+
+  }
+
+  .corpo::before{
+
+
+    background-image: url('server.jpg');
+    
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+
+
+
+  }
+  h1{
+    font-family: 'Crete Round', serif;
+    font-weight: 700;
+    color: #33E52D;
+  }
+  
+  
+  h3 {
+    
+    font-weight: 800;
+  }
+  
+  .navbar{
+      
+      align-items: center;
+      margin-top: 40px;
+  
+  }
+  a{
+    
+    color: #B7154A;
+  }
+  
+  
+  .img{
+      margin-top: 23px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 18px;;
+     
+  
+  }
+  
+  
+  
+  .quadrado {
+     cursor: url('cursor.png'),auto;
+      background-image: url('prompt.png');
+      font-weight: 700;
+      font-family: 'Crete Round', serif;
+      color:#33E52D;
+      width: 54%;
+      height: 400px;
+      margin: 3% auto;
+      border: 5px solid white;
+      text-align: center;
+      padding-top: 5%;
+      box-shadow: 10px 10px 10px 5px white;
+    }
+  
+    .quadrado2{
+  
+      font-weight: 700;
+      font-family: 'Crete Round', serif;
+      color:#33E52D;
+      width: 54%;
+      height: 400px;
+      margin: 3% auto;
+     
+      text-align: center;
+      padding-top: 5%;
+      margin-bottom: 31%;
+  
+      
+    }
+  
+  
+  .description{
+    margin: 0 auto;
+    width: 70%;
+  
+  
+  }
+  
+    
+  
+  .projtitle{
+  
+    color: #33E52D;
+    font-size: 2.5rem;
+  
+  }
+    
+  
+    .txt{
+  
+      
+      padding-top: 21%;
+      padding-left: 5%;
+      padding-right: 5%;
+  
+    }
+  
+    .txt1{
+  
+      padding-top: 2%;
+      padding-left: 5%;
+      padding-right: 5%;
+  
+    }
+  
+  
+    .github {
+      margin-top: 7px;
+      margin: 0 auto;
+      width: 32px;
+      color: cadetblue;
+  
+    }
+  
+    .footer{
+      display: flex;
+      flex-direction: row;
+  
+      width: 10%;
+      margin: 0 auto;
+      margin-top: 77px;
+      padding-bottom: 45px;
+    }
+  
+  
+  
+  .imgproj{
+  
+    margin:0 auto;
+    width: 550px;
+    height: 300px;
+  
+  
+    }
+  
+  
+  
+  
+    
+  
+  
+  
+    

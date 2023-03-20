@@ -12,55 +12,127 @@
     <!--fontawesome icons-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<!-- jquery -->
 
-<link rel="stylesheet" href="style.css">
 
-<script src="https://cdn.tailwindcss.com"></script>
+
+
+
 <!--fontes do Google-->
+<link rel="stylesheet" href="./assets/projetos.css">
 
 
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
 
 
-
-
-    <title>Document</title>
+  <title>Document</title>
 </head>
-<body>
+<body class="font-sans leading-normal tracking-normal corpo" id="idBody">
     
-    <img class="img  mx-12 mx-auto" src="euu.jpg" alt="">
-    <h1 class="img mx-auto mx-12"> Sidnei Arjonas</h1>
-  
-   <div class="flex justify-center">
+
+  <div class="background">
+
+      <img src="/assets/server.jpg" alt="" >
+
+  </div>
+
+    <section class="conteudo">
+      
+   <div style="margin-top: 80px;" class=" flex justify-center">
    
-  <ul class="flex items-center">
-    <li class="mr-6">
-      <a class="text-blue-500 hover:text-blue-800" href="#">Sobre</a>
-    </li>
-    <li class="mr-6">
-      <a class="text-blue-500 hover:text-blue-800" href="#">Projetos</a>
-    </li>
-    <li class="mr-6">
-      <a class="text-blue-500 hover:text-blue-800" href="#">Contato</a>
-    </li>
-    <li class="mr-6">
-      <a class="text-gray-400 cursor-not-allowed" href="#">Disabled</a>
-    </li>
-  </ul>
+    <ul class="flex items-center">
+      <li class="mr-6">
+        <a style="color:#B7154A;" class="text-blue-0 hover:text-blue-" href="index.html">Sobre</a>
+      </li>
+      <li class="mr-6">
+        <a  style="color:#B7154A; font-weight: 800;" class="text-blue-500 hover:text-blue-800" href="projetos.html">Projetos</a>
+      </li>
+      <li class="mr-6">
+        <a  style="color:#B7154A;" class="text-blue-500 hover:text-blue-800" href="#">Contato</a>
+      </li>
+      <li class="mr-6">
+        <a  style="color:#B7154A;;" class="text-gray-400 cursor-not-allowed" href="#">Disabled</a>
+      </li>
+    </ul>
   </div>  
   
 
 
 
+  <div class="splide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+
+          <div class="quadrado2">
+
+            <h1 class="projtitle" style="color:#33E52D"><a  target="_blank" href="https://pokechoice.onrender.com/">PokemonsSix</a></h1>
+            <img  class="imgproj" src="./assets/poke.gif" alt="projeto">
+          <div class="description">
+        
+            <h3><br>Descrição</h3><br>   <p>Aplicação web ,com autenticão, que simula  o usuario como um treinador do  universo do anime Pokemon 
+            </p>
+          </div>
+        
+          <div>
+        
+            <h3> <br>Tecnologias utillizadas</h3>
+            <ul>
+        
+              <li><br>Flask</li>
+              <li>SqlAlchemy</li>
+              <li>bootstrap</li>
+              <li>CSS</li>
+              <li >  <a  target="_blank" href="https://github.com/arjonas/pokemon6_iniciais/tree/master"><img class="github" src="./git.ico" alt=""></a></li>
+            </ul> 
+           
+        
+        
+          </div>
+        </div>
+
+
+
+        </li>
+        <li class="splide__slide"><img class="imgproj" src="assets/euu.jpg"></li>
+        <li class="splide__slide"><img src="caminho/para/slide3.jpg"></li>
+      </ul>
+    </div>
+  </div>
+  
 
 
 
 
 
-<div class="quadrado">
 
-    <img  class="imgproj" src="poke.gif" alt="">
 
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<
 
 
   <!--Foooter  -->
@@ -80,6 +152,19 @@
     
     </div>
     </footer>
-
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
 </body>
+
+
+<script>
+new Splide('.splide', {
+  type: 'slide',
+  perPage: 1,
+  autoplay: false,
+  pauseOnHover: false
+}).mount();
+</script>
+
 </html>

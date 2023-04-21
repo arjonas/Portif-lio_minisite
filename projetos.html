@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <!--fontawesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- jquery -->
+
+
+
+
+
+<!--fontes do Google-->
+<link rel="stylesheet" href="../src/projetos.css">
+
+
+
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+
+
+  <title>Document</title>
+</head>
+<body class="font-sans leading-normal tracking-normal corpo" id="idBody">
+    
+
+  <div class="background">
+
+      <img src="/assets/server.jpg" alt="" >
+
+  </div>
+
+  <div id="root"></div>
+
+    <section class="conteudo">
+      
+      <div style="margin-top: 80px;" class=" flex justify-center">
+   
+        <ul class="flex items-center">
+          <li class="mr-6">
+            <a  class="text-blue-0 hover:text-blue-" href="index.html">Sobre</a>
+          </li>
+          <li class="mr-6">
+            <a  style="font-weight: 800; color: #B7154A;" class=" hover:text-blue-800" href="projetos.html">Projetos</a>
+          </li>
+          <li class="mr-6">
+            <a    href="#">Contato</a>
+          </li>
+          <li class="mr-6">
+            <a   class="text-gray-400 cursor-not-allowed" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>  
+      
+  
+
+
+
+  <div class="splide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+
+          <div class="quadrado2">
+
+            <h1 class="projtitle" style="color:#33E52D"><a  target="_blank" href="https://pokechoice.onrender.com/">PokemonsSix</a></h1>
+            <img  class="imgproj" src="./assets/poke.gif" alt="projeto">
+          <div class="description">
+        
+            <h3><br>Descrição</h3><br>   <p>Aplicação web ,com autenticão, que simula  o usuario como um treinador do  universo do anime Pokemo 
+            </p>
+          </div>
+        
+          <div>
+        
+            <h3> <br>Tecnologias utillizadas</h3>
+            <ul>
+        
+              <li><br>Flask</li>
+              <li>Sqlite</li>
+              <li>bootstrap</li>
+              <li>CSS</li>
+              <li >  <a  target="_blank" href="https://github.com/arjonas/pokemon6_iniciais/tree/master"><img class="github" src="./git.ico" alt=""></a></li>
+            </ul> 
+           
+        
+        
+          </div>
+        </div>
+
+
+
+        </li>
+        <li class="splide__slide">
+          
+          
+          <div class="quadrado2">
+
+            <h1 class="projtitle" style="color:#33E52D"><a  target="_blank" href="https://pokechoice.onrender.com/">Blog deDev</a></h1>
+            <img  class="imgproj" src="./assets/bloggg.gif" alt="projeto">
+          <div class="description">
+        
+            <h3><br>Descrição</h3><br>   <p>Blog ,com autenticão, que simula  um blog de noticias tech do  universo de tecnologia.
+            </p>
+          </div>
+        
+          <div>
+        
+            <h3> <br>Tecnologias utillizadas</h3>
+            <ul>
+        
+              <li><br>Flask</li>
+              <li>SqlAlchemy</li>
+              <li>bootstrap</li>
+              <li>CSS</li>
+              <li >  <a  target="_blank" href="https://github.com/arjonas/pokemon6_iniciais/tree/master"><img class="github" src="./git.ico" alt=""></a></li>
+            </ul> 
+           
+        
+        
+          </div>
+        </div>
+
+
+
+
+
+        </li>
+        <li class="splide__slide"><img src="caminho/para/slide3.jpg"></li>
+      </ul>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<
+
+
+  <!--Foooter  -->
+
+
+  <footer>
+    <div class="footer">
+    
+      <a class="mx-auto" href=""><i class="fab fa-github-square"></i></a>
+      <a class="mx-auto">  <i class="fab fa-linkedin"></i></a>
+    
+      <a href="" class="mx-auto"><i class="fab fa-instagram"></i></a>
+    
+      <a href="" class="mx-auto"><i class="fab fa-whatsapp-square"></i></a>
+    
+        
+    
+    </div>
+    </footer>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+
+<script>
+new Splide('.splide', {
+  type: 'slide',
+  perPage: 1,
+  autoplay: false,
+  pauseOnHover: false
+}).mount();
+</script>
+
+</html>

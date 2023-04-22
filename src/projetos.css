@@ -21,7 +21,7 @@ h2{
 
 
   .folhaProjeto{
-    background-image: url('sserver2.png');
+    background-image: url('/public/assets/sserver2.png');
     background-color: rgb(10, 10, 10);
     opacity: 0.9;
     width: 100%;
@@ -222,8 +222,16 @@ h2{
 
 }
 
-.splide__arrow--next::before {
-
-};
 
 
+
+.copyrights{
+
+    
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1%;
+
+
+}

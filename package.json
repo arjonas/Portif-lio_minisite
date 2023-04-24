@@ -1,7 +1,7 @@
 {
   "name": "portifolio_site",
   "version": "1.0.0",
-  "home":"https://arjonas.github.io/Portif-lio_minisite",
+  "homepage":"https://arjonas.github.io/Portif-lio_minisite",
   "description": "'meu portifólio em forma de site'",
   "main": "index.js",
   "scripts": {

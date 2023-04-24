@@ -1,0 +1,237 @@
+body{
+    
+    font-weight: 900;
+ 
+    font-family: 'Crete Round', serif;
+    background-color: #151819 !important;
+    color: #B7154A;
+
+    background-repeat:round; 
+  
+
+  }
+  
+
+h2{
+
+  font-size: 2.5rem;
+
+
+}
+
+
+  .folhaProjeto{
+    background-image: url('/public/assets/sserver2.png');
+    background-color: rgb(10, 10, 10);
+    opacity: 0.9;
+    width: 100%;
+
+  }
+
+
+  .conteudo a{
+
+    font-size: 1.23rem;
+    
+
+
+  }
+  .corpo::before{
+
+    
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+  }
+  .flex li{
+
+    color: white;
+  }
+
+  h1{
+    font-family: 'Crete Round', serif;
+    font-weight: 700;
+    
+  }
+  
+  
+  h3 {
+    
+    font-weight: 800;
+  }
+  
+  .navbar{
+      
+      align-items: center;
+      margin-top: 40px;
+  
+  }
+
+
+  a{
+    
+    color: #B7154A;
+  }
+  
+  
+  .img{
+      margin-top: 23px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 18px;
+
+     
+  
+  }
+  
+  
+  
+  .quadrado {
+    
+      font-weight: 700;
+      background-color: #000000;
+      font-family: 'Inconsolata', monospace;
+      margin: 3% auto;
+      border: 5px solid white;
+      background-image: url('../public/assets/prompt.png');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      font-weight: 700;
+      color:#33E52D;
+      width: 35%;
+      height: 450px;
+      margin: 3% auto;
+      border: 5px solid white ;
+      text-align: center;
+      padding-top: 5%;
+      box-shadow: 10px 10px 10px 5px white;
+      box-shadow: 20px 20px 50px -20px #B7154A;
+    }
+  
+    .quadrado2{
+  
+      font-weight: 700;
+      font-family: 'Crete Round', serif;
+ 
+      color:#33E52D;
+      width: 54%;
+      height: 450px;
+      margin: 3% auto;
+     
+      text-align: center;
+      
+      margin-bottom: 11%;
+  
+      
+    }
+  
+  
+  .description{
+    padding-top: 2%;
+    margin-top: 2%;
+    margin: 0 auto;
+    width: 70%;
+  
+  
+  }
+  
+  .tec{
+
+    padding-top: 2%;
+
+
+  }
+  
+  .projtitle{
+  
+    color: #33E52D;
+    font-size: 2.5rem;
+  
+  }
+    
+  
+    .txt{
+  
+      
+      padding-top: 21%;
+      padding-left: 5%;
+      padding-right: 5%;
+  
+    }
+  
+    .txt1{
+  
+      padding-top: 2%;
+      padding-left: 5%;
+      padding-right: 5%;
+  
+    }
+  
+  
+    .github {
+      margin-top: 7px;
+      margin: 0 auto;
+      width: 32px;
+      color: cadetblue;
+  
+    }
+  
+    .footer{
+      display: flex;
+      flex-direction: row;
+  
+      width: 10%;
+      margin: 0 auto;
+      margin-top: 77px;
+      padding-bottom: 45px;
+    }
+  
+  
+  
+  .imgproj{
+  
+    margin:0 auto;
+    width: 550px;
+    height: 300px;
+  
+  
+    }
+  
+  
+  
+  
+    
+  
+.splide__arrows{
+
+  position: relative;
+  top: 352px;
+}
+  
+    
+ .splide__arrow{
+  content: "";
+  background-color:#d39e00 !important;
+  margin-bottom: 130px;
+  
+
+}
+
+
+
+
+.copyrights{
+
+    
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1%;
+
+
+}
